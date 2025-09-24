@@ -1,0 +1,35 @@
+{
+  "genesis_time": "2025-09-12T00:00:00Z",
+  "chain_id": "suaraku-chain",
+  "initial_height": "1",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    },
+    "version": {}
+  },
+  "validators": [
+    {
+      "address": "CD00FECE2FE5177FF8E2BC54B3D617D71F8171F6",
+      "pub_key": {
+        "type": "tendermint/PubKeyEd25519",
+        "value": "PoXCHaBX3WVzXJ4tHtksra5sSfSvdZkX+70rtkKqEpI="
+      },
+      "power": "10",
+      "name": "naim"
+    }
+  ],
+  "app_hash": "",
+  "app_state": {}
+}
