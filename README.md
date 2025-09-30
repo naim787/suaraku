@@ -12,5 +12,10 @@ make run-full
 
 ## Running Only node
 ```sh
+make run-node
+```
+
+## Running Only Applications
+```sh
 make run-app
 ```
